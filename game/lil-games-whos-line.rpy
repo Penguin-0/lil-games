@@ -71,6 +71,7 @@ init python:
     drag_group.remove(dragged_items[0])
     GetNextDragLine()
 
+  #TODO: Get line randomly
   def GetNextDragLine():
     line = next((line for line in Lines if not line.isComplete), None)
     if line is None:
@@ -91,21 +92,21 @@ init python:
         total_count = len([line for line in character_lines])
 
         if correct_count == total_count:
-            return f"You got {correct_count}/{total_count} {name} lines correct! Her affection has increased by 100 across all saves."
+            return f"You got {correct_count}/{total_count} of {name}'s lines correct! Her affection has increased by 100 across all saves."
         elif correct_count == 1:
-            return f"You got {correct_count}/{total_count} {name} lines correct. Her affection has stayed the same."
+            return f"You got {correct_count}/{total_count} of {name}'s lines correct. Her affection has stayed the same."
         else:
             return f"You got {correct_count}/{total_count} of {name}'s lines correct... Her affection has decreased by 100 across all saves. She's crying!"
 
 # Game Setup #
 define Lines = [
     Line("ayane_1","I feel like it was just yesterday you were poking my arms and calling them squishy. Now, I could probably beat you to death blindfolded!", "firsttimedojo", "ayane_destination", False, False),
-    Line("ayane_2","I feel like you could convince me to do literally anything by just telling me you love me over and over. Hearts are annoying. Stop taking advantage of my biggest weakness.", "ayanebonus1", "ayane_destination", False, False),
     Line("sana_1", "When I...look at the egg, I...I see an egg...", "sportswars3", "sana_destination", False, False),
-    Line("sana_2", "Sensei, you...don't love me. But I'm flattered you...felt good enough to maybe think you did for a second", "sanainvite2", "sana_destination", False, False),
     Line("ami_1", "Is sensory deprivation cruel? Or is that kind of just a thing that nobody really cares about?", "beachmas8", "ami_destination", False, False),
-    Line("ami_2", "You haven't spent as much time with me here as you have with her yet, but I'm like a walking trash receptacle for your love!", "amimaid30", "ami_destination", False, False),
+    Line("ayane_2","I feel like you could convince me to do literally anything by just telling me you love me over and over. Hearts are annoying. Stop taking advantage of my biggest weakness.", "ayanebonus1", "ayane_destination", False, False),
+    Line("sana_2", "Sensei, you...don't love me. But I'm flattered you...felt good enough to maybe think you did for a second", "sanainvite2", "sana_destination", False, False),
     Line("maya_1", "Never leave me. Ever. Ever. Ever. Ever. Ever. Ever. Ever. And I promise you — I will do the same.", "halloweenmaya2", "maya_destination", False, False),
+    Line("ami_2", "You haven't spent as much time with me here as you have with her yet, but I'm like a walking trash receptacle for your love!", "amimaid30", "ami_destination", False, False),
     Line("maya_2", "You can passively help, though. By just being around and not doing anything stupid. And occasionally buying me exorbitant amounts of food and allowing me to walk with you in my yukata.", "mayafestival3", "maya_destination", False, False)
 ]
 
