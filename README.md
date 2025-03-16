@@ -1,4 +1,4 @@
-# lil-games: a collection of Lessons in Love minigames
+# lil-games: A collection of Lessons in Love minigames
 
 ## Minigames
 | Name | Description |
@@ -6,7 +6,7 @@
 | Who's Line | Given a line from Lessons in Love, can you determine who said it?|
 
 ## Usage
-1. From the Main Menu screen, click the button in the top left to launch the minigame.
+1. From the Main Menu screen, click the button in the top right to launch the minigame.
    ![image](https://github.com/user-attachments/assets/c8f5024b-1895-4300-85d3-f1f1957d20cb)
 
 ## Installation
