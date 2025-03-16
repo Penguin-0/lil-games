@@ -454,6 +454,7 @@ screen navigation():
         action ShowMenu("dlc")
         xpos 266 ypos 564
 
+    # LiL Games
     if main_menu:
         textbutton "Who's Line" action Jump("whos_line_game_start") xalign 0.98 yalign 0.02 background Solid("#000000B3")
 
