@@ -10,8 +10,8 @@
    ![image](https://github.com/user-attachments/assets/c8f5024b-1895-4300-85d3-f1f1957d20cb)
 
 ## Installation
-1. Download the Source Code for the [latest release](https://github.com/Penguin-0/lil-games/releases)
-2. Drag the game folder into your Lessons in Love folder.
+1. Download the Source Code for the [latest release](https://github.com/Penguin-0/lil-games/releases).
+2. Unzip and drag the game folder into your Lessons in Love folder.
 
 ## Removal
 1. Navigate to your Lessons in Love game folder.
