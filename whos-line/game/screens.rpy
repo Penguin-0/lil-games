@@ -439,9 +439,6 @@ screen navigation():
         if main_menu:
             textbutton "Jukebox" action ShowMenu("music_room")
 
-        if main_menu:
-            textbutton "Who's Line" action Jump("whos_line_game_start")
-
         #if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
@@ -457,6 +454,8 @@ screen navigation():
         action ShowMenu("dlc")
         xpos 266 ypos 564
 
+    if main_menu:
+        textbutton "Who's Line" action Jump("whos_line_game_start") xalign 0.98 yalign 0.02 background Solid("#000000B3")
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
@@ -7299,7 +7298,7 @@ screen harukatracker():
             else:
                 text _("To Anyone Who Passes By")
             if sadgirls5 == True:
-                textbutton _("Again, I Can't Recall {b}✓{/b}"):
+                textbutton _("Again, I Can't Re, {b}✓{/b}"):
                     text_style "mybutton"
                     action Replay("sadgirls5", locked=False)
             else:
