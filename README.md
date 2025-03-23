@@ -15,8 +15,8 @@
 
 ## Removal
 1. Navigate to your Lessons in Love game folder.
-2. Delete any files starting with lil-games.
-3. In screens.rpy remove the following lines.
+2. Delete the folder `lil-games`.
+3. In `screens.rpy` remove the following lines.
    ```
    # LiL Games
    if main_menu:

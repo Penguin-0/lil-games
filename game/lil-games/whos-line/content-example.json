@@ -1,0 +1,21 @@
+{
+  "displayText": "The text to display when selecting",
+  "createdBy": "your display name",
+  "lines": [
+    {
+      "name": "ayane. Note: Currently only a maximum of four different names are supported right now. Anything over that will be ignored.",
+      "text": "The text the character said",
+      "replay-label": "The name of the replay label. Leave blank if there is no replay"
+    },
+    {
+      "name": "ayane",
+      "text": "Another line Ayane says",
+      "replay-label": "The name of the replay label. Leave blank if there is no replay"
+    },
+    {
+      "name": "maya",
+      "text": "A line Maya says",
+      "replay-label": "The name of the replay label. Leave blank if there is no replay"
+    }
+  ]
+}

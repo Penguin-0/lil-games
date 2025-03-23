@@ -1,0 +1,66 @@
+[
+  {
+    "key": "ayane_1",
+    "text": "I feel like it was just yesterday you were poking my arms and calling them squishy. Now, I could probably beat you to death blindfolded!",
+    "replay": "firsttimedojo",
+    "destination": "ayane_destination",
+    "isComplete": false,
+    "isCorrect": false
+  },
+  {
+    "key": "sana_1",
+    "text": "When I...look at the egg, I...I see an egg...",
+    "replay": "sportswars3",
+    "destination": "sana_destination",
+    "isComplete": false,
+    "isCorrect": false
+  },
+  {
+    "key": "ami_1",
+    "text": "Is sensory deprivation cruel? Or is that kind of just a thing that nobody really cares about?",
+    "replay": "beachmas8",
+    "destination": "ami_destination",
+    "isComplete": false,
+    "isCorrect": false
+  },
+  {
+    "key": "ayane_2",
+    "text": "I feel like you could convince me to do literally anything by just telling me you love me over and over. Hearts are annoying. Stop taking advantage of my biggest weakness.",
+    "replay": "ayanebonus1",
+    "destination": "ayane_destination",
+    "isComplete": false,
+    "isCorrect": false
+  },
+  {
+    "key": "sana_2",
+    "text": "Sensei, you...don't love me. But I'm flattered you...felt good enough to maybe think you did for a second",
+    "replay": "sanainvite2",
+    "destination": "sana_destination",
+    "isComplete": false,
+    "isCorrect": false
+  },
+  {
+    "key": "maya_1",
+    "text": "Never leave me. Ever. Ever. Ever. Ever. Ever. Ever. Ever. And I promise you — I will do the same.",
+    "replay": "halloweenmaya2",
+    "destination": "maya_destination",
+    "isComplete": false,
+    "isCorrect": false
+  },
+  {
+    "key": "ami_2",
+    "text": "You haven't spent as much time with me here as you have with her yet, but I'm like a walking trash receptacle for your love!",
+    "replay": "amimaid30",
+    "destination": "ami_destination",
+    "isComplete": false,
+    "isCorrect": false
+  },
+  {
+    "key": "maya_2",
+    "text": "You can passively help, though. By just being around and not doing anything stupid. And occasionally buying me exorbitant amounts of food and allowing me to walk with you in my yukata.",
+    "replay": "mayafestival3",
+    "destination": "maya_destination",
+    "isComplete": false,
+    "isCorrect": false
+  }
+]

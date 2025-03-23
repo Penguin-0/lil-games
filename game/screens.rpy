@@ -456,7 +456,7 @@ screen navigation():
 
     # LiL Games
     if main_menu:
-        textbutton "Who's Line" action Jump("whos_line_game_start") xalign 0.98 yalign 0.02 background Solid("#000000B3")
+        textbutton "LiL Games" action ShowMenu("lil_games_landing") xalign 0.98 yalign 0.02 background Solid("#000000B3")
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
