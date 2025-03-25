@@ -79,7 +79,7 @@ init python:
     line = next((line for line in Lines if not line.isComplete), None)
     if line is None:
       renpy.jump("whos_line_game_end")
-
+    
     drag_group.add(CreateDragLine(line))
 
 

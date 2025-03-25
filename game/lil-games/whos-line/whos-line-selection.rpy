@@ -9,8 +9,10 @@ screen whos_line_selection():
             python:
                 names = whos_line.get_distinct_names(content)
                 name_display = whos_line.get_name_display_text(names)
+            if len(names) > 4:
+                continue # Skipping for now until I handle drawing the game screen better and can remove the 4 character restriction
             vbox:
-                textbutton content["displayText"] action Call("lil_games_whos_line_start", content)
+                textbutton content["displayText"] action [SetVariable("whos_line.selected_content", content), Call("lil_games_whos_line_initialize")]
                 text name_display size 18 color "#888888"
                 text "Created by: [content['createdBy']]" size 18 color "#888888"
 
@@ -53,4 +55,5 @@ init python in whos_line:
         return f"Featuring: {', '.join(names[:-1])}, and {names[-1]}"
         
     content_list = load_json_content()
-
+    selected_content = None
+    selected_content_girls = None
